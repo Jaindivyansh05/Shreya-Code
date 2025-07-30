@@ -1,0 +1,38 @@
+.form-container {
+  background-image: url("/pic.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
