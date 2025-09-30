@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: your_user
+    password: your_password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  jackson:
+    serialization:
+      indent_output: true
+
+logging:
+  level:
+    root: INFO
+    com.example.notify: INFO
